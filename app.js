@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Hello, Express.js!');
+  res.send(`Hello, Express.js! ${Math.random()}`);
 });
 
 // Example POST route
